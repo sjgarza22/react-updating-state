@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ButtonCounter from './components/ButtonCounter.js';
+import ClickityClick from './components/ClickityClick.js'
+import LightSwitch from './components/LightSwitch.js';
 
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <ClickityClick />
+    <ButtonCounter />
+    <LightSwitch />
   </div>,
   document.getElementById('root')
 );
